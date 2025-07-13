@@ -7,9 +7,10 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    
 }
-body{
-    overflow-y: hidden;
+body,html{
+overflow-x:hidden;
 }
 .navtitle{
       border: 2px solid black;
@@ -90,6 +91,7 @@ body{
      margin-top: 20px;
      display: flex;
      align-items: center;
+    
 
 }
 .navbar article div img{
@@ -101,7 +103,7 @@ body{
      width: 650px;
      height: 45px;
      border-radius: 20px;
-     padding-left: 20px;
+     /* padding-left: 20px; */
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -110,6 +112,9 @@ body{
 }
 .navbar article div input{
     border: none;
+     width: 600px;
+     height: 45px;
+     border-radius: 20px;
 
 }
 .navbar article div i{
@@ -195,10 +200,11 @@ size: 30px;
 }
 /* ===============end info============================= */
 .sidebar{
-      position: absolute;
+      position:fixed;
       height: 300px;
       width: 100px;
       margin-left: 1470px;
+     z-index: -1;
  
 }
 .sidebar article div{
@@ -207,5 +213,9 @@ size: 30px;
       background-color: whitesmoke;
       color: white;
      border: 2px solid black;
-     margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
 }
+
