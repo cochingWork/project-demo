@@ -67,6 +67,7 @@
     align-items: center;
     justify-content: space-between;
     width: 220px;
+    padding-left: 10px;
 
 }
 .navtitle .callus .callusdip{
@@ -82,3 +83,111 @@
    cursor: pointer;
 }
 /* =========================================================navTitle end======================================== */
+.navbar{
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+
+}
+.navbar article div img{
+      width: 100px;
+      margin-left: 40px;
+}
+.navbar article .search{
+    margin-left: 160px;
+     width: 650px;
+     height: 45px;
+     border-radius: 20px;
+     padding-left: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 0.1px solid black;
+     
+}
+.navbar article div input{
+    border: none;
+
+}
+.navbar article div i{
+    margin-right: 10px;
+}
+.navbar .Wishlist 
+{
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 45px;
+ 
+}
+.navbar .Wishlist .heardicon{
+    height: 30px;
+    background-color: #f1f2fE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+.navbar .Wishlist div p{
+     font-size: 15px;
+}
+.navbar .Trackorder{
+margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 45px;
+}
+.navbar .Trackorder .heardicon{
+        height: 30px;
+    background-color: #f1f2fE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+.navbar .Trackorder div p{
+      font-size: 15px;
+}
+
+   
+.navbar .contect{
+margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 45px;
+}
+.navbar .contect .heardicon{
+        height: 30px;
+    background-color: #f1f2fE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+.navbar .contect div p{
+      font-size: 15px;
+}
+
+.navbar .shoping{
+    margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 45px;
+   background-color: #f1f2fE;
+   width: 60px;
+   padding-left: 35px;
+}
+.navbar .shoping i{
+size: 30px;
+}
+/* ===================navbar end========================== */
+.info{
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 20px;
+}
+/* ===============end info============================= */
