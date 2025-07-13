@@ -1,5 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
    margin: 0;
    padding:0;   
+   font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.navtitle{
+      border: 2px solid black;
+      height: 60px;
+      display: flex;
+      align-items: center;
+    
+}
+.navtitle .hots div{
+       background-color: rgb(146, 28, 28);
+       color: white;
+       width: 80px;
+       height: 30px;
+       border: 2px solid black;
+       border-radius: 30px;
+       text-align: center;
+       padding-top: 10px;
+       cursor: pointer;
+       margin-left: 60px;
+       
+}
+.navtitle .navtitletext{
+    margin-left: 15px;
+}
+.navtitle .usd{
+ margin-left: 500px;
+}
+.navtitle .usd div select{
+    border: none;
+}
+.navtitle .Eng {
+     margin-left: 20px;
+  
+     
+}
+.navtitle .Eng div select {
+       border: none;
+}
+.navtitle .needhelp {
+     background-color: rgb(199, 250, 255);
+     border-radius: 10px;
+     display: flex;
+     height: 40px;
+     width: 120px;
+     margin-left: 20px;
+     align-items: center;
+     /* padding-left: 10px; */
+     justify-content: space-evenly;
+     cursor: pointer;
 }
 
+.navtitle .callus{
+     margin-left: 20px;
+     border: 2px solid black;
+     border-radius: 20px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+
+}
+.navtitle .callus .callusdip{
+    display: flex;
+    align-items: center;
+
+      border-radius: 20px;
+     border: 20px;
+     height: 30px;
+     background-color: rgb(30, 222, 30);
+     width: 70px;
+     padding-left: 20px;
+   cursor: pointer;
+}
+/* =========================================================navTitle end======================================== */
