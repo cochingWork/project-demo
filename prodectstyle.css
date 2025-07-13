@@ -8,6 +8,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+body{
+    overflow-y: hidden;
+}
 .navtitle{
       border: 2px solid black;
       height: 60px;
@@ -191,3 +194,18 @@ size: 30px;
      font-size: 20px;
 }
 /* ===============end info============================= */
+.sidebar{
+      position: absolute;
+      height: 300px;
+      width: 100px;
+      margin-left: 1470px;
+ 
+}
+.sidebar article div{
+    height: 50px;
+      width: 50px;
+      background-color: whitesmoke;
+      color: white;
+     border: 2px solid black;
+     margin-top: 10px;
+}
