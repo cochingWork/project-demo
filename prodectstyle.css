@@ -370,7 +370,7 @@ padding-top: 20px;
 }
 /*===================== main item end====================== */
 footer{
-
+   background-color: whitesmoke;
 }
 .footecontent{
    width: 600px;
@@ -414,4 +414,15 @@ footer .footers1{
 .footers2{
   margin-top:30px;
   margin-left: 20px;
+}
+
+.footers3{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 30px;
+  margin-left: 30px;
+  list-style: none;
+  margin-right: 20px;
+
+
 }
