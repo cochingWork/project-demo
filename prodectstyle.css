@@ -204,7 +204,7 @@ size: 30px;
       height: 300px;
       width: 100px;
       margin-left: 1470px;
-     z-index: -1;
+     z-index: 1;
  
 }
 .sidebar article div{
@@ -218,4 +218,68 @@ size: 30px;
       align-items: center;
 
 }
+
+/* ==============sisebar end============= */
+.hero{
+  height: 600px;
+  background-color: whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+display: flex;
+padding-left: 70px;
+padding-top: 20px;
+}
+.hero article .heroimg {
+   height: 400px;
+   
+   
+}
+.hero article .herotext{
+  margin-left: 100px;
+  font-size: 60px;
+  padding-top: 100px;
+  font-weight: 800;
+}
+.hero article .heroa2d2text{
+  font-size: 20px;
+  padding-left: 98px;
+  padding-top: 20px;
+}
+.hero article .heroa2d3button{
+  padding: 30px;
+  padding-left: 98px;
+}
+.hero article .heroa2d3button button{
+   border-radius: 30px;
+   height: 50px;
+   width: 160px;
+   font-size: 23px;
+   background-color: rgba(16, 16, 212, 0.875);
+   color: white;
+   cursor: pointer;
+   border: none;
+}
+
+/* ========================hero section end========== */
+.genaralinfo {
+   background-color: whitesmoke;
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-evenly;
+   height: 70px;
+   align-items: center;
+}
+
+.genaralinfo article{
+   display: flex;
+   font-size: 25px;
+   justify-content: space-between;
+
+}
+
+/* ===============================================genralinfo end================== */
+
+
 
