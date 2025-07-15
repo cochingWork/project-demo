@@ -64,14 +64,21 @@
 <body>
   <div class="login-container">
     <h2>Login</h2>
-    <form action="/login" method="POST">
+    <form >
       <input type="text" name="username" placeholder="Username" required />
       <input type="password" name="password" placeholder="Password" required />
-      <input type="submit" value="Login" />
+      <input type="submit" value="Login" onclick="che()"/>
+       <!-- <button type="submit"><a href="index.html">login</a></button> -->
     </form>
     <div class="register">
       <p>Don't have an account? <a href="#">Register here</a></p>
     </div>
   </div>
+  <script>
+    function che(){
+
+        window.location.href ="index.html"; 
+    }
+  </script>
 </body>
 </html>
