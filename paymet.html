@@ -69,8 +69,16 @@
       <label for="cvv">CVV</label>
       <input type="text" id="cvv" maxlength="4" placeholder="123" required>
 
-      <button class="btn" type="submit">Pay Now</button>
+      <button class="btn" type="submit" onclick="pay()">Pay Now</button><br>
+        
     </form>
   </div>
+  <script>
+        function pay()
+        {
+             window.location.href="donepayment.html";
+        }
+       
+  </script>
 </body>
 </html>
